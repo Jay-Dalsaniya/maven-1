@@ -30,7 +30,7 @@ maven 'Maven'
     stage('Package Maven Project'){
       steps{
         script{
-         bat 'mvn package'
+         bat 'mvn package"
         }
       }
     }
